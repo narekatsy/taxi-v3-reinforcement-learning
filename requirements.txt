@@ -1,5 +1,4 @@
 numpy
 gymnasium
 matplotlib
-json
 argparse

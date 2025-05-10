@@ -45,7 +45,13 @@ def run_training(algo, episodes):
             "--episodes", str(episodes),
             "--verbose"
     ])
-
+    elif algo == "dyna_q_plus":
+        subprocess.run([
+            sys.executable, "-m", "train.train_dyna_q_plus",
+            "--config", "configs/dyna_q_plus.json",
+            "--episodes", str(episodes),
+            "--verbose"
+    ])
     else:
         print(f"Unknown algorithm: {algo}")
 
@@ -62,12 +68,14 @@ def run_evaluation(algo):
         subprocess.run([sys.executable, "-m", "evaluate.evaluate_n_step_sarsa"])
     elif algo == "dyna_q":
         subprocess.run([sys.executable, "-m", "evaluate.evaluate_dyna_q"])
+    elif algo == "dyna_q_plus":
+        subprocess.run([sys.executable, "-m", "evaluate.evaluate_dyna_q_plus"])
     else:
         print(f"Unknown algorithm: {algo}")
 
 def main():
     parser = argparse.ArgumentParser(description="Main runner for RL project")
-    parser.add_argument("--algo", choices=["q_learning", "sarsa", "expected_sarsa", "monte_carlo", "n_step_sarsa", "dyna_q"],
+    parser.add_argument("--algo", choices=["q_learning", "sarsa", "expected_sarsa", "monte_carlo", "n_step_sarsa", "dyna_q", "dyna_q_plus"],
                         required=True, help="Algorithm to run")
     parser.add_argument("--mode", choices=["train", "evaluate", "all"], default="all", help="Run mode")
     parser.add_argument("--episodes", type=int, default=3000, help="Number of episodes (for training)")
