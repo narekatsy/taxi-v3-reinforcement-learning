@@ -1,0 +1,12 @@
+[
+    { "alpha": 0.1, "gamma": 0.95, "epsilon_decay": 0.995, "n": 1 },
+    { "alpha": 0.2, "gamma": 0.98, "epsilon_decay": 0.998, "n": 3 },
+    { "alpha": 0.3, "gamma": 0.99, "epsilon_decay": 0.999, "n": 5 },
+    { "alpha": 0.4, "gamma": 0.97, "epsilon_decay": 0.997, "n": 10 },
+    { "alpha": 0.5, "gamma": 0.96, "epsilon_decay": 0.996, "n": 7 },
+    { "alpha": 0.15, "gamma": 0.99, "epsilon_decay": 0.999, "n": 3 },
+    { "alpha": 0.25, "gamma": 0.95, "epsilon_decay": 0.995, "n": 5 },
+    { "alpha": 0.35, "gamma": 0.98, "epsilon_decay": 0.998, "n": 10 },
+    { "alpha": 0.05, "gamma": 0.94, "epsilon_decay": 0.995, "n": 4 },
+    { "alpha": 0.6, "gamma": 0.97, "epsilon_decay": 0.999, "n": 2 }
+]

@@ -1,0 +1,12 @@
+[
+    { "alpha": 0.1, "gamma": 0.95, "epsilon_decay": 0.995, "planning_steps": 5,  "kappa": 0.0005 },
+    { "alpha": 0.2, "gamma": 0.98, "epsilon_decay": 0.997, "planning_steps": 10, "kappa": 0.001 },
+    { "alpha": 0.05, "gamma": 0.99, "epsilon_decay": 0.999, "planning_steps": 7, "kappa": 0.005 },
+    { "alpha": 0.15, "gamma": 0.97, "epsilon_decay": 0.996, "planning_steps": 7, "kappa": 0.001 },
+    { "alpha": 0.1, "gamma": 0.99, "epsilon_decay": 0.998, "planning_steps": 5, "kappa": 0.0001 },
+    { "alpha": 0.25, "gamma": 0.96, "epsilon_decay": 0.995, "planning_steps": 3, "kappa": 0.002 },
+    { "alpha": 0.3,  "gamma": 0.95, "epsilon_decay": 0.996, "planning_steps": 10, "kappa": 0.0005 },
+    { "alpha": 0.1,  "gamma": 0.97, "epsilon_decay": 0.997, "planning_steps": 6, "kappa": 0.001 },
+    { "alpha": 0.05, "gamma": 0.98, "epsilon_decay": 0.999, "planning_steps": 8, "kappa": 0.003 },
+    { "alpha": 0.2,  "gamma": 0.99, "epsilon_decay": 0.999, "planning_steps": 3, "kappa": 0.0001 }
+]
