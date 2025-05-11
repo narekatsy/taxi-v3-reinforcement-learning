@@ -1,0 +1,17 @@
+=== Best Configurations Per Algorithm ===
+dyna_q: α0.25 γ0.96 ε-decay0.995 plan3 — Avg Reward: 5.51, Cumulative: -169255
+dyna_q_plus: α0.25 γ0.96 ε-decay0.995 plan3 κ0.002 — Avg Reward: 5.98, Cumulative: -100952
+expected_sarsa: α0.2 γ0.99 ε-decay0.996 — Avg Reward: 7.57, Cumulative: -290827
+monte_carlo: α0.3 γ0.98 ε-decay0.998 — Avg Reward: -175.58, Cumulative: -457545
+n_step_sarsa: α0.1 γ0.95 ε-decay0.995 n1 — Avg Reward: 6.05, Cumulative: -407322
+q_learning: α0.1 γ0.95 ε-decay0.99 — Avg Reward: 7.49, Cumulative: -224872
+sarsa: α0.1 γ0.99 ε-decay0.995 — Avg Reward: 7.58, Cumulative: -377406
+
+=== Best Algorithms Overall ===
+1. sarsa: α0.1 γ0.99 ε-decay0.995 — Avg Reward: 7.58, Cumulative: -377406
+2. expected_sarsa: α0.2 γ0.99 ε-decay0.996 — Avg Reward: 7.57, Cumulative: -290827
+3. q_learning: α0.1 γ0.95 ε-decay0.99 — Avg Reward: 7.49, Cumulative: -224872
+4. n_step_sarsa: α0.1 γ0.95 ε-decay0.995 n1 — Avg Reward: 6.05, Cumulative: -407322
+5. dyna_q_plus: α0.25 γ0.96 ε-decay0.995 plan3 κ0.002 — Avg Reward: 5.98, Cumulative: -100952
+6. dyna_q: α0.25 γ0.96 ε-decay0.995 plan3 — Avg Reward: 5.51, Cumulative: -169255
+7. monte_carlo: α0.3 γ0.98 ε-decay0.998 — Avg Reward: -175.58, Cumulative: -457545
